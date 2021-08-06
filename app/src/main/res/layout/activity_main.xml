@@ -124,10 +124,9 @@
            <EditText
                android:layout_width="match_parent"
                android:layout_height="50dp"
-               android:background="@drawable/shape3"
                android:layout_marginTop="590dp"
-               android:drawableRight="@drawable/ic_launcher_foreground"
-               android:drawableLeft="@drawable/ic_emoji_foreground" />
+               android:background="@drawable/shape3"
+                />
 
            <ImageView
                android:layout_width="80dp"
@@ -136,6 +135,18 @@
                android:layout_marginTop="575dp"
                android:layout_marginLeft="270dp"/>
 
+           <ImageView
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:src="@drawable/ic_launcher_foreground"
+               android:layout_marginTop="575dp"
+               android:layout_marginLeft="320dp"/>
+           <ImageView
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:src="@drawable/ic_emoji_foreground"
+               android:layout_marginTop="575dp"
+               android:layout_marginLeft="20dp"/>
 
        </RelativeLayout>
 
