@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sizeOfNormalText">20sp</dimen>
+    <dimen name="paddingOfMessage">18dp</dimen>
+    <dimen name="marginRightSender">85dp</dimen>
+    <dimen name="marginTopSender">40dp</dimen>
+    <dimen name="secondMessege">200dp</dimen>
+    <dimen name="timeOne">330dp</dimen>
+    <dimen name="marginTopTimeOne">150dp</dimen>
+</resources>

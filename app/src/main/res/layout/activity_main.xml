@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical">
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/app_name"
+           android:textSize="30sp"
+           android:padding="16dp"
+           android:textColor="@color/black"
+           android:background="@color/white"
+           android:elevation="10dp" />
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="@dimen/marginRightSender"
+               android:layout_marginTop="@dimen/marginTopSender"
+               android:background="@drawable/shape1"
+               android:gravity="start"
+               android:padding="@dimen/paddingOfMessage"
+               android:text="Hi Lio. Whats up?? \n I need a new logo for group.\n"
+               android:textColor="@color/white"
+               android:textSize="@dimen/sizeOfNormalText" />
+           <ImageView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/ic_double_check"
+               android:layout_marginStart="330dp"
+               android:layout_marginTop="110dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="@dimen/timeOne"
+               android:layout_marginTop="@dimen/marginTopTimeOne"
+               android:text="22:30"
+               android:textSize="20dp" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="90dp"
+               android:layout_marginTop="@dimen/secondMessege"
+               android:background="@drawable/shape1"
+               android:ellipsize="end"
+               android:gravity="start"
+               android:lines="1"
+               android:padding="@dimen/paddingOfMessage"
+               android:text="simple , minimal and beauti.. \n"
+               android:textColor="@color/white"
+               android:textSize="@dimen/sizeOfNormalText" />
+           <ImageView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/ic_double_check"
+               android:layout_marginStart="330dp"
+               android:layout_marginTop="235dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="@dimen/timeOne"
+               android:layout_marginTop="270dp"
+               android:text="22:31"
+               android:textSize="20dp" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="20dp"
+               android:layout_marginTop="300dp"
+               android:background="@drawable/shape2"
+               android:text="   ok, I'll start next week. \n  send me documents today     "
+               android:textColor="@color/black"
+               android:textSize="@dimen/sizeOfNormalText" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="230dp"
+               android:layout_marginTop="350dp"
+               android:text="22:32"
+               android:textSize="20dp" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="180dp"
+               android:layout_marginTop="400dp"
+               android:background="@drawable/shape1"
+               android:text="   Oh. That`s great 😍 \n"
+               android:textColor="@color/white"
+               android:textSize="@dimen/sizeOfNormalText" />
+           <ImageView
+               android:layout_width="30dp"
+               android:layout_height="30dp"
+               android:src="@drawable/ic_double_check"
+               android:layout_marginStart="330dp"
+               android:layout_marginTop="425dp"/>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginHorizontal="330dp"
+               android:layout_marginTop="450dp"
+               android:text="22:33"
+               android:textSize="20dp" />
+
+           <EditText
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:background="@drawable/shape3"
+               android:layout_marginTop="590dp"
+               android:drawableRight="@drawable/ic_launcher_foreground"
+               android:drawableLeft="@drawable/ic_emoji_foreground" />
+
+           <ImageView
+               android:layout_width="80dp"
+               android:layout_height="80dp"
+               android:src="@drawable/ic_pin_foreground"
+               android:layout_marginTop="575dp"
+               android:layout_marginLeft="270dp"/>
+
+
+       </RelativeLayout>
+
+
+   </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
